@@ -1,0 +1,33 @@
+/* body {
+  margin: 0;
+  padding: 0;
+  height: 6000px;
+  font-family: Arial, sans-serif;
+}
+
+.scroll-line {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  height: 0;
+  transition: height 0.3s ease;
+  transform: translateX(-50%);
+} */
+
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 6000px; 
+  font-family: Arial, sans-serif;
+  position: relative; 
+}
+
+.scroll-line {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: height 0.3s ease;
+}
+
